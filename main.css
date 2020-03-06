@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+svg{
+    fill: red;
+    width: 200px;
+
+}
+#signin{
+    padding: 3px 5px;
+    background-color:red;
+    width: 60px;
+    border-radius: 5px;
+    height: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+.start{
+    padding: 9px;
+    background-color: red;
+    width: 200px;
+    margin: 10px auto ;
+}
+
+.learns{
+
+    padding: 9px;
+    background-color: black;
+    width: 200px;
+    margin: 5px auto ;
+    border: solid white;
+}
+.learn{
+    
+    padding: 9px;
+    background-color: black;
+    width: 200px;
+    border: solid white;
+    margin-top: 50px;
+}
+.enjoy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin: 20px 60px ;
+}
+ul{
+    list-style: none;
+}
+.guy{
+    display: flex;
+    width: 50%;
+    background-color:rgb(37, 35, 35);
+    margin: 5px auto;
+    padding:  20px;
+    justify-content: space-between;
+}
+.where{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+
+.where ul li{
+    margin: 5px;
+}
+.days{
+    background-image: url(bg.jpg);
+    height: 40em;
+    background-size: cover;
+}
+
+
+.days div{
+    margin: 50px;
+}
+
+hr{
+    height: 8px;
+    background-color:rgb(37, 35, 35);
+    border: 0;
+
+}
+
+footer{
+    color: rgb(107, 102, 102);
+    text-align: left;
+    padding: 50px 100px;
+}
+
+footer p{
+    margin: 30px;
+}
